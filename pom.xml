@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-kafka-wikimedia-project-cbsal</name>
 	<description>Spring Boot CBSAL Project with separate producer consumer with wikimedia api</description>
+	<packaging>pom</packaging>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -96,4 +97,7 @@
 		</pluginRepository>
 	</pluginRepositories>
 
+	<modules>
+		<module>kafka-producer-wikimedia-cbsal</module>
+	</modules>
 </project>

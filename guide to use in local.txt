@@ -10,3 +10,15 @@
 4. read Json kafka topic value
 	.\bin\windows\kafka-console-consumer.bat --topic jsonkafkatopic --from-beginning --bootstrap-server localhost:9092
 	
+	
+	
+guide
+
+1. make this main project as multi model maven project 
+	- add packaging tag in main pom after decript tag
+		<packaging>pom</packaging>
+		
+2. create multi modules
+	follow - https://www.geeksforgeeks.org/spring-boot-multi-module-project/
+
+3. add packaging as jar in modules
