@@ -1,0 +1,12 @@
+1. cmd start zookeper in local
+	.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+	
+2. cmd start in parallel broker 
+	.\bin\windows\kafka-server-start.bat .\config\server.properties
+	
+3. read kafka topic value
+	.\bin\windows\kafka-console-consumer.bat --topic kafkatopic --from-beginning --bootstrap-server localhost:9092
+
+4. read Json kafka topic value
+	.\bin\windows\kafka-console-consumer.bat --topic jsonkafkatopic --from-beginning --bootstrap-server localhost:9092
+	
