@@ -4,11 +4,8 @@
 2. cmd start in parallel broker 
 	.\bin\windows\kafka-server-start.bat .\config\server.properties
 	
-3. read kafka topic value
-	.\bin\windows\kafka-console-consumer.bat --topic kafkatopic --from-beginning --bootstrap-server localhost:9092
-
-4. read Json kafka topic value
-	.\bin\windows\kafka-console-consumer.bat --topic jsonkafkatopic --from-beginning --bootstrap-server localhost:9092
+3. read Json kafka topic value
+	.\bin\windows\kafka-console-consumer.bat --topic wikimedia_recent_change_topic --from-beginning --bootstrap-server localhost:9092
 	
 	
 	
@@ -22,3 +19,6 @@ guide
 	follow - https://www.geeksforgeeks.org/spring-boot-multi-module-project/
 
 3. add packaging as jar in modules
+
+4. add dependenices - event source, jackson json core and databind and squareupokhhtp 
+   if error pops maven in module 1
