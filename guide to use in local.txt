@@ -22,3 +22,10 @@ guide
 
 4. add dependenices - event source, jackson json core and databind and squareupokhhtp 
    if error pops maven in module 1
+   
+   
+db setup
+
+1.create table name wikimediacbsal
+
+2. add spring data jpa, and mysql driver depency in pom of consumer

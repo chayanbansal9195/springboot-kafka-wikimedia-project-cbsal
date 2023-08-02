@@ -99,5 +99,6 @@
 
 	<modules>
 		<module>kafka-producer-wikimedia-cbsal</module>
+		<module>kafka-consumer-wikimedia-cbsal</module>
 	</modules>
 </project>
